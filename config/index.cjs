@@ -11,7 +11,7 @@ const USER_CONFIG = {
   APP_ID: 'wxb770c3467dbcae0b',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'a592KBAO8LesJrWzatXwmLJLe-Z_4aj2-csy4Neykl4',
+  APP_SECRET: '7afcf865654e16e3ed88657cdaeb6e73',
 
   PROVINCE: '江苏',
   CITY: '苏州',
@@ -27,7 +27,7 @@ const USER_CONFIG = {
     eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 1,
+    weather: 0,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     networkHot: 10,
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oWprX5vFQnMlF_zvqPVTEeyAaMGY',
       // 使用微信测试号：你想对他发送的消息的模板ID
-      useTemplateId: '5ssEnk4jX--6HOgo15bg7cf0VHL3BchZlowGXJgnBGE',
+      useTemplateId: 'a592KBAO8LesJrWzatXwmLJLe-Z_4aj2-csy4Neykl4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-22',
       festivals: [
