@@ -30,10 +30,10 @@ const USER_CONFIG = {
     weather: 0,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 5,
+    networkHot: 11,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
-    networkHotType: 'title',
+    networkHotType: 'default',
   },
   USERS: [
     {
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oWprX5vFQnMlF_zvqPVTEeyAaMGY',
       // 使用微信测试号：你想对他发送的消息的模板ID
-      useTemplateId: '-bHA1n_FBb-HrQ9BsREe0qIH_-LGjHuT8d3Sq2SBfkQ',
+      useTemplateId: 'bGcyOvDBeJDysYx5RE2DHYD-3P32geiQXDlAn-Qfsvs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-22',
       festivals: [
@@ -70,7 +70,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '6iYXKGPWsgaI1Bs-NAA2H35CG56wioZ2GuoBl0wdndM',
+  CALLBACK_TEMPLATE_ID: 'bGcyOvDBeJDysYx5RE2DHYD-3P32geiQXDlAn-Qfsvs',
 
   CALLBACK_USERS: [
     {
