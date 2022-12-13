@@ -21,10 +21,10 @@ const USER_CONFIG = {
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
+    morningGreeting: false,
   
     // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    eveningGreeting: true,
+    eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: 0,
@@ -33,16 +33,16 @@ const USER_CONFIG = {
     networkHot: 5,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
-    networkHotType: 'default',
+    networkHotType: 'title',
   },
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oWprX5vFQnMlF_zvqPVTEeyAaMGY',
+      id: 'oWprX5uulubbvx-9-enrlToc5w6w',
       // 使用微信测试号：你想对他发送的消息的模板ID
-      useTemplateId: 'pMwp9ocuKwAL6G9CRv26vI3qzIjK1KXPeg-UfvIoMQI',
+      useTemplateId: 'aKqnP9loMl_NK36iCILZr0HT0K0-7JFo4v0eVUearwI',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-22',
       festivals: [
@@ -70,7 +70,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'pMwp9ocuKwAL6G9CRv26vI3qzIjK1KXPeg-UfvIoMQI',
+  CALLBACK_TEMPLATE_ID: 'aKqnP9loMl_NK36iCILZr0HT0K0-7JFo4v0eVUearwI',
 
   CALLBACK_USERS: [
     {
