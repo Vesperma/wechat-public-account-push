@@ -1368,7 +1368,7 @@ describe('services', () => {
     const user = {}
     config.TIAN_API.morningGreeting = true
     config.TIAN_API.eveningGreeting = true
-    config.TIAN_API.weather = true
+    config.TIAN_API.weather = false
     config.TIAN_API.networkHot = true
     await expect(getTianApiMorningGreeting()).resolves.toEqual('xxx')
     await expect(getTianApiEveningGreeting()).resolves.toEqual('xxx')
