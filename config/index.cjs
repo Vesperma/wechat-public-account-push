@@ -21,10 +21,10 @@ const USER_CONFIG = {
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
+    morningGreeting: false,
   
     // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    eveningGreeting: true,
+    eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: 1,
@@ -70,13 +70,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '34Mw3LNr-I-td6C_EnKocBewIdZRmpiPiCxM7VwAu54',
+  CALLBACK_TEMPLATE_ID: '6iYXKGPWsgaI1Bs-NAA2H35CG56wioZ2GuoBl0wdndM',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oWprX5vFQnMlF_zvqPVTEeyAaMGY	',
+      id: 'oWprX5vFQnMlF_zvqPVTEeyAaMGY',
     }
   ],
 
